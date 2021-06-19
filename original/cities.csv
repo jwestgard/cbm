@@ -1,0 +1,206 @@
+id,name,native,country_id
+1,Aberdeen,,UK (Scotland)
+2,Aberystwyth,,Wales
+3,Admont,,Austria
+4,Alençon,,France
+5,Altenburg,,Austria
+6,Amiens,,France
+7,Angers,,France
+8,Arras,,France
+9,Aschaffenburg,,Germany
+10,Assisi,,Italy
+11,Augsburg,,Germany
+12,Autun,,France
+13,Auxerre,,France
+14,Avignon,,France
+15,Avranches,,France
+16,Bamberg,,Germany
+17,Barcelona,,Spain
+18,Basel,,Switzerland
+19,Bayeux,,France
+20,Berlin,,Germany
+21,Bern,,Switzerland
+22,Besançon,,France
+23,"Bloomington, IN",USA
+24,Bologna,,Italy
+25,Bordeaux,,France
+26,Boulogne-sur-mer,,France
+27,Bourges,,France
+28,Bruges,Brugge,Belgium
+29,Brussels,,Belgium
+30,Budapest,,Hungary
+31,Burgo de Osma,,Spain
+32,Caen,,France
+33,Cambrai,,France
+34,Cambridge,,UK (England)
+35,Cambridge (MA),USA
+36,Carpentras,,France
+37,Cava de’ Tirreni,,Italy
+38,Châlons-en-Champagne,,France
+39,Charleville-Mézières,,France
+40,Chartres,,France
+41,Clermont-Ferrand,,France
+42,"Clitheroe, Lancashire",,UK (England)
+43,Coimbra,,Portugal
+44,Cologne,,Germany
+45,Copenhagen,Denmark
+46,Cortona,,Italy
+47,Cracow,,13
+48,Darmstadt,,Germany
+49,Deventer,,Netherlands
+50,Dijon,,France
+51,Douai,,France
+52,Dresden,,Germany
+53,Dublin,,Ireland
+54,Durham,,UK (England)
+55,"Durham, NC",USA
+56,Düsseldorf,,Germany
+57,Edinburgh,,UK (Scotland)
+58,Einsiedeln,,Switzerland
+59,"Escorial, El",,Spain
+60,Engelberg,,Switzerland
+61,Épernay,,France
+62,Erfurt,,Germany
+63,Erlangen,,Germany
+64,Evreux,,France
+65,Florence,Firenze,Italy
+66,Fulda,,Germany
+67,Geneva,Genève,Switzerland
+68,Ghent,Gent,Belgium
+69,Glasgow,,UK (Scotland)
+70,Gotha,,Germany
+71,Göttweig,,Austria
+72,Grenoble,,France
+73,Heiligenkreuz,,Austria
+74,Hereford,,UK (England)
+75,Houston,USA
+76,Ipswich,,UK (England)
+77,Ivrea,,Italy
+78,Karlsruhe,,Germany
+79,Kassel,,Germany
+80,Klosterneuburg,,Austria
+81,Laon,,France
+82,Le Mans,,France
+83,Leiden,,Netherlands
+84,Leipzig,,Germany
+85,Lemberg,,13
+86,Liège,,Belgium
+87,Lilienfeld,,Austria
+88,Lincoln,,UK (England)
+89,Lisbon,,Portugal
+90,London,,UK (England)
+91,Longleat House (Wiltshire),,UK (England)
+92,Lons-le-Saunier,,France
+93,Lucca,,Italy
+94,Luxembourg,,Luxembourg
+95,Lyons,Lyon,France
+96,Madrid,,Spain
+97,Mainz,,Germany
+98,Manchester,,UK (England)
+99,Mehrerau,,Austria
+100,Melk,,Austria
+101,Metz,,France
+102,Milan,,Italy
+103,Mons,,Belgium
+104,Monte Cassino,Montecassino,Italy
+105,Montpellier,,France
+106,Monza,,Italy
+107,Munich,München,Germany
+108,Münster,Münster in Westfalen,Germany
+109,Namur,,Belgium
+110,Naples,Napoli,Italy
+111,New Haven,USA
+112,New York,USA
+113,Nîmes,,France
+114,Novara,,Italy
+115,Nuremberg,Nürnberg,Germany
+116,Orléans,,France
+117,Oslo and London,,Norway
+118,Oxford,,UK (England)
+119,Paderborn,,Germany
+120,Padua,,Italy
+121,Pamplona,,Spain
+122,Paris,,France
+123,Perugia,,Italy
+124,Poitiers,,France
+125,Pommersfelden,,Germany
+126,Prague,,3
+127,Princeton,USA
+128,Reims,,France
+129,Rein,,Austria
+130,Rennes,,France
+132,Rome,Roma,Italy
+133,Rouen,,France
+134,Saint-Mihiel,,France
+135,Saint-Omer,,France
+136,Salisbury,,UK (England)
+137,Salzburg,,Austria
+138,San Felix,,Spain
+139,San Marino,USA
+140,St. Florian,Sankt Florian,Austria
+141,Schaffhausen,,Switzerland
+142,Sélestat,,France
+143,Siena,,Italy
+144,Soissons,,France
+145,St. Gall,Sankt Gallen,Switzerland
+146,St. Petersburg,,15
+147,Strasbourg,,France
+148,Stuttgart,,Germany
+149,"Hague, The",‘s-Gravenhage,Netherlands
+150,Tokyo,,Japan
+151,Tortosa,,Spain
+152,Toulouse,,France
+153,Tournai,,Belgium
+154,Tours,,France
+155,Trier,,Germany
+156,Troyes,,France
+157,Turin,,Italy
+158,Utrecht,,Netherlands
+159,Valencia,,Spain
+160,Valenciennes,,France
+161,Vatican City,,Hungary
+162,Vendôme,,France
+163,Vercelli,,Italy
+164,Verdun,,France
+165,Verona,,Italy
+166,Vienna,Wien,Austria
+167,Vitry-le-François,,France
+168,Weimar,,Germany
+169,Williamstown (MA),USA
+170,Winchester,,UK (England)
+171,Windsor,,UK (England)
+172,Wolfenbüttel,,Germany
+173,Worcester,,UK (England)
+174,Wrocław,,13
+175,Würzburg,,Germany
+176,York,,UK (England)
+177,Zurich,Zürich,Switzerland
+178,Zwettl,,Austria
+179,Columbia (MO),USA
+180,Aarau,,Switzerland
+181,Disentis,,Switzerland
+182,Yerevan,,Armenia
+183,Frankfurt am Main,,Germany
+184,Freiburg im Breisgau,,Germany
+185,Göttingen,,Germany
+186,Giessen,,Germany
+187,Graz,,Austria
+188,Hanover,Hannover,Germany
+189,Leuven,,Belgium
+190,Modena,,Italy
+191,Osnabrück,,Germany
+193,Wertheim am Main,,Germany
+194,Cesena,,Italy
+195,Marburg,,Germany
+197,Wormsley,,UK (England)
+198,Toledo,,Spain
+199,Lambach,,Austria
+200,Jena,,Germany
+201,Leeds,,UK (England)
+202,Innsbruck,,Austria
+203,Linz,,Austria
+204,Pistoia,,Italy
+205,Boston,USA
+206,Antwerp,Antwerpen,Belgium
+207,Austin (TX),USA
+208,Baltimore,USA

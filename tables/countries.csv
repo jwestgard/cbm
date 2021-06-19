@@ -1,24 +1,26 @@
-"1","Austria","Österriech"
-"2","Belgium",""
-"3","Czech Republic",""
-"4","Denmark",""
-"5","France","France"
-"6","Germany","Deutschland"
-"7","Ireland","Eire"
-"8","Italy","Italia"
-"9","Japan",""
-"10","Luxembourg",""
-"11","Netherlands",""
-"12","Norway","Norge"
-"13","Poland",""
-"14","Portugal",""
-"15","Russia",""
-"16","Spain","España"
-"18","Switzerland","Suisse"
-"19","UK (England)",""
-"20","UK (Scotland)",""
-"21","UK (Wales)",""
-"22","USA","USA"
-"23","Vatican",""
-"24","Hungary",""
-"25","Armenia",""
+id,old_id,name,native
+1,25,Armenia,Hayastan
+2,1,Austria,Österriech
+3,2,Belgium,België/Belgique
+4,3,Czech Republic,
+5,4,Denmark,Danmark
+6,5,France,France
+7,6,Germany,Deutschland
+8,24,Hungary,Magyarország
+9,7,Ireland,Éire
+10,8,Italy,Italia
+11,9,Japan,Nippon
+12,10,Luxembourg,Lëtzebuerg 
+13,11,Netherlands,
+14,12,Norway,Norge
+15,13,Poland,Polska
+16,14,Portugal,Portugal
+17,15,Russia,Rossiya
+18,16,Spain,España
+19,18,Switzerland,Suisse
+20,19,UK (England),UK (England)
+21,20,UK (Scotland),UK (Scotland)
+22,21,UK (Wales),UK (Cymru)
+23,26,Ukraine,Ukraina
+24,22,USA,USA
+25,23,Vatican,Città del Vaticano
