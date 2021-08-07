@@ -1,0 +1,206 @@
+id,old_id,name,native,country_id
+1,180,Aarau,,19
+2,1,Aberdeen,,21
+3,2,Aberystwyth,,22
+4,3,Admont,,2
+5,4,Alençon,,6
+6,5,Altenburg,,2
+7,6,Amiens,,6
+8,7,Angers,,6
+9,206,Antwerp,Antwerpen,3
+10,8,Arras,,6
+11,9,Aschaffenburg,,7
+12,10,Assisi,,10
+13,11,Augsburg,,7
+14,207,Austin (TX),,24
+15,12,Autun,,6
+16,13,Auxerre,,6
+17,14,Avignon,,6
+18,15,Avranches,,6
+19,208,Baltimore (MD),,24
+20,16,Bamberg,,7
+21,17,Barcelona,,18
+22,18,Basel,,19
+23,19,Bayeux,,6
+24,20,Berlin,,7
+25,21,Bern,,19
+26,22,Besançon,,6
+27,23,Bloomington (IN),,24
+28,24,Bologna,,10
+29,25,Bordeaux,,6
+30,205,Boston (MA),,24
+31,26,Boulogne-sur-mer,,6
+32,27,Bourges,,6
+33,28,Bruges,Brugge,3
+34,29,Brussels,,3
+35,30,Budapest,,8
+36,31,Burgo de Osma,,18
+37,32,Caen,,6
+38,33,Cambrai,,6
+39,35,Cambridge (MA),,24
+40,34,Cambridge,,20
+41,36,Carpentras,,6
+42,37,Cava de’ Tirreni,,10
+43,194,Cesena,,10
+44,38,Châlons-en-Champagne,,6
+45,39,Charleville-Mézières,,6
+46,40,Chartres,,6
+47,41,Clermont-Ferrand,,6
+48,42,"Clitheroe, Lancashire",,20
+49,43,Coimbra,,16
+50,44,Cologne,,7
+51,179,Columbia (MO),,24
+52,45,Copenhagen,,5
+53,46,Cortona,,10
+54,47,Cracow,,15
+55,48,Darmstadt,,7
+56,49,Deventer,,13
+57,50,Dijon,,6
+58,181,Disentis,,19
+59,51,Douai,,6
+60,52,Dresden,,7
+61,53,Dublin,,9
+62,55,Durham (NC),,24
+63,54,Durham,,20
+64,56,Düsseldorf,,7
+65,57,Edinburgh,,21
+66,58,Einsiedeln,,19
+67,60,Engelberg,,19
+68,61,Épernay,,6
+69,62,Erfurt,,7
+70,63,Erlangen,,7
+71,59,"Escorial, El",,18
+72,64,Evreux,,6
+73,65,Florence,Firenze,10
+74,183,Frankfurt am Main,,7
+75,184,Freiburg im Breisgau,,7
+76,66,Fulda,,7
+77,67,Geneva,Genève,19
+78,68,Ghent,Gent,3
+79,186,Giessen,,7
+80,69,Glasgow,,21
+81,70,Gotha,,7
+82,185,Göttingen,,7
+83,71,Göttweig,,2
+84,187,Graz,,2
+85,72,Grenoble,,6
+86,149,"Hague, The",‘s-Gravenhage,13
+87,188,Hanover,Hannover,7
+88,73,Heiligenkreuz,,2
+89,74,Hereford,,20
+90,75,Houston (TX),,24
+91,202,Innsbruck,,2
+92,76,Ipswich,,20
+93,77,Ivrea,,10
+94,200,Jena,,7
+95,78,Karlsruhe,,7
+96,79,Kassel,,7
+97,80,Klosterneuburg,,2
+98,199,Lambach,,2
+99,81,Laon,,6
+100,82,Le Mans,,6
+101,201,Leeds,,20
+102,83,Leiden,,13
+103,84,Leipzig,,7
+104,85,Lemberg,Lviv,23
+105,189,Leuven,,3
+106,86,Liège,,3
+107,87,Lilienfeld,,2
+108,88,Lincoln,,20
+109,203,Linz,,2
+110,89,Lisbon,,16
+111,90,London,,20
+112,91,Longleat House (Wiltshire),,20
+113,92,Lons-le-Saunier,,6
+114,93,Lucca,,10
+115,94,Luxembourg,,12
+116,95,Lyons,Lyon,6
+117,96,Madrid,,18
+118,97,Mainz,,7
+119,98,Manchester,,20
+120,195,Marburg,,7
+121,99,Mehrerau,,2
+122,100,Melk,,2
+123,101,Metz,,6
+124,102,Milan,,10
+125,190,Modena,,10
+126,103,Mons,,3
+127,104,Monte Cassino,Montecassino,10
+128,105,Montpellier,,6
+129,106,Monza,,10
+130,107,Munich,München,7
+131,108,Münster,Münster in Westfalen,7
+132,109,Namur,,3
+133,110,Naples,Napoli,10
+134,111,New Haven (CT),,24
+135,112,New York,,24
+136,113,Nîmes,,6
+137,114,Novara,,10
+138,115,Nuremberg,Nürnberg,7
+139,116,Orléans,,6
+140,117,Oslo and London,,14
+141,191,Osnabrück,,7
+142,118,Oxford,,20
+143,119,Paderborn,,7
+144,120,Padua,,10
+145,121,Pamplona,,18
+146,122,Paris,,6
+147,123,Perugia,,10
+148,204,Pistoia,,10
+149,124,Poitiers,,6
+150,125,Pommersfelden,,7
+151,126,Prague,,4
+152,127,Princeton,,24
+153,128,Reims,,6
+154,129,Rein,,2
+155,130,Rennes,,6
+156,132,Rome,Roma,10
+157,133,Rouen,,6
+158,134,Saint-Mihiel,,6
+159,135,Saint-Omer,,6
+160,136,Salisbury,,20
+161,137,Salzburg,,2
+162,138,San Felix,,18
+163,139,San Marino (CA),,24
+164,141,Schaffhausen,,19
+165,142,Sélestat,,6
+166,143,Siena,,10
+167,144,Soissons,,6
+168,140,St. Florian,Sankt Florian,2
+169,145,St. Gall,Sankt Gallen,19
+170,146,St. Petersburg,,17
+171,147,Strasbourg,,6
+172,148,Stuttgart,,7
+173,150,Tokyo,,11
+174,198,Toledo,,18
+175,151,Tortosa,,18
+176,152,Toulouse,,6
+177,153,Tournai,,3
+178,154,Tours,,6
+179,155,Trier,,7
+180,156,Troyes,,6
+181,157,Turin,,10
+182,158,Utrecht,,13
+183,159,Valencia,,18
+184,160,Valenciennes,,6
+185,161,Vatican City,Città del Vaticano,25
+186,162,Vendôme,,6
+187,163,Vercelli,,10
+188,164,Verdun,,6
+189,165,Verona,,10
+190,166,Vienna,Wien,2
+191,167,Vitry-le-François,,6
+192,168,Weimar,,7
+193,193,Wertheim am Main,,7
+194,169,Williamstown (MA),,24
+195,170,Winchester,,20
+196,171,Windsor,,20
+197,172,Wolfenbüttel,,7
+198,173,Worcester,,20
+199,197,Wormsley,,20
+200,174,Wrocław,,15
+201,175,Würzburg,,7
+202,182,Yerevan,,1
+203,176,York,,20
+204,177,Zurich,Zürich,19
+205,178,Zwettl,,2
