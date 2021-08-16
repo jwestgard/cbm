@@ -1,50 +1,54 @@
-id,abbreviation,abbreviation_long
-1,ChMa,Chron.mai.
-2,ChMi,Chron.min.
-3,CEP,Coll.epist.Paul.
-4,CPs,Psalt.abbrev.
-5,DAM,Art.metr.
-7,CI,Epist.Ac.Isaias
-8,DLS,Loc.Sanct.
-9,CMF,Epist.Ac.Mans.
-10,DNR,Nat.rer.
-11,CQO,Quaest.aliquot
-12,DO,Orthogr.
-13,DST,Sch.trop.
-14,CTa,Tabern.
-15,CTe,Templ.
-16,DT,Temp.
-17,DTR,Temp.rat.
-18,EpA,Epist.Alb.
-19,EpE,Epist.Ecgb.
-20,EpH,Epist.Helm.
-21,EpP,Epist.Pleg.
-22,EpW,Epist.Wicth.
-23,CAc,Exp.Act.apost.
-24,CAp,Comm.Apc.
-25,CH,Comm.Habac.
-26,CAcN,Exp.Act.apost.Geogr.
-27,HA,Hist.abb.
-28,HEOE,Hist.eccl.OE
-29,HE,Hist.eccl.
-30,H,Hom.
-31,CC,Comm.Cant.
-32,CEC,Comm.epist.cath.
-33,CE,Comm.Ez.Neh.
-34,CTo,Comm.Tob.
-35,CL,Comm.Luc.
-36,CM,Comm.Marc.
-37,CS,Comm.Sam.
-38,CGH,Comm.Gen.Hex.
-39,CGL,Comm.Gen.Long.
-40,CGS,Comm.Gen.Brev.
-41,CPr,Comm.Prouerb.
-42,CPrDMF,Comm.Prouerb.DMF.
-43,CQT,Quaest.Reg.
-44,M,Mart.
-45,VA  ,Vit.Anast.
-46,P,Poem.
-47,CAcR,Exp.Act.apost.Retr.
-48,VCM,Vit.Cuthb.metr.
-49,VCP,Vit.Cuthb.pr.
-50,VF,Vit.Fel.
+id,abbreviation,abbreviation_long,title_lat,title_eng,refs
+
+1,CAc,Exp.Act.apost.,Super Acta Apostolorum expositio,On the Acts of the Apostles,CPL 1357
+3,CAcR,Exp.Act.apost.Retr.,Retractiones,Retractions,CPL 1358
+4,CAp,Comm.Apc.,Expositio Apocalypseos,Commentary on Revelation,CPL 1363
+7,CEC,Comm.epist.cath.,Super epistulas catholicas expositio,Commentary on the Seven Catholic Epistles,CPL 1362
+6,CEP,Coll.epist.Paul.,Collectio Bedae presbyteri ex opusculis sancti Augustini in Epistulas Pauli Apostoli,Excerpts from the Works of Augustine on the Pauline Epistles,CPL 1360
+8,CEz,Comm.Ez.Neh.,In Ezram et Neemiam,On Ezra and Nehemiah,CPL 134910,CGH,Comm.Gen.Hex.,In principium Genesis (uersio breuior Ia),Commentary on the Beginning of Genesis ("hexameron"),CPL 1344
+9,CG,Comm.Gen.Long.,In principium Genesis,Commentary on the Beginning of Genesis,CPL 1344
+12,CH,Comm.Habac.,In Canticum Habacum,On the Canticle of Habakkuk,CPL 1354
+14,CL,Comm.Luc.,In Lucae euangelium expositio,Commentary on the Gospel of Luke,CPL 1356
+15,CM,Comm.Marc.,In Marci euangelium expositio,Commentary on the Gospel of Mark,CPL 1355
+17,CPr,Comm.Prouerb.,In Parabolas Salomonis,On the Proverbs of Solomon,CPL 1351
+20,CQT,Quaest.Reg.,In Regum librum XXX quaestiones,Thirty Questions on the Book of Kings (to Nothhelm),CPL 1347
+21,CS,Comm.Sam.,In primam partem Samuhelis libri IIII,Commentary on First Samuel,CPL 1346
+5,CC,Comm.Cant.,In Cantica Canticorum,On the Song of Songs,CPL 1353
+22,CTa,Tabern.,De tabernaculo,On the Tabernacle,CPL 1345
+23,CTe,Templ.,De templo Salomonis,On the Temple,CPL 1348
+24,CTo,Comm.Tob.,In Tobiam,On Tobias,CPL 1350
+19,CQO,Quaest.aliquot,Aliquot questionum liber,On Eight Questions (to Nothhelm),CPL 1364
+18,CPs,Psalt.abbrev.,Collectio Psalterii,Abbreviated Psalter,CPL 1371
+13,CI,Epist.Ac.Isaias,De eo quod ait Isaias,On What Isaiah Said (to Acca),CPL 1366
+16,CMF,Epist.Ac.Mans.,De mansionibus filiorum Israel,On the Resting-Places of the Children of Israel (to Acca)
+
+47,VF,Vit.Fel.,Vita Felicis,Life of Felix,CPL 1382
+32,VA,Vit.Anast.,Passio Anastasii,Passion of Anastasius,CPL 1382a; BHL 408
+46,VCM,Vit.Cuthb.metr.,Vita Cuthberti metrica,Metrical Life of Cuthbert,CPL 1380
+45,VCP,Vit.Cuthb.pr.,Vita Cuthberti prosaica,Prose Life of Cuthbert,CPL 1381
+42,M,Mart.,Martyrologium,Martyrology,see CPL 2032 and 1301
+
+41,HE,Hist.eccl.,Historia ecclesiastica gentis Anglorum,The History of the English Church and People,CPL 1375
+51,HEOE,Hist.eccl.OE,Historia ecclesiastica (OE translation),Old English Historia Ecclesiastica,
+40,HA,Hist.abb.,"Vita BB. Abbatum Benedicti, Ceolfridi, Eosterwini, Sigfridi et Hwaetberti",Lives of the Abbots of Wearmouth and Jarrow,CPL 1378
+
+37,H,Hom.,Homeliarum euangelii libri ii,Homilies on the Gospels,CPL 1367
+
+
+44,EpA,Epist.Alb.,Epistula ad Albinum abbatem,Letter to Albinus,CPL 1374
+33,EpE,Epist.Ecgb.,Epistula ad Ecgbertum episcopum,Letter to Ecgberht,CPL 1376
+34,EpH,Epist.Helm.,Epistula ad Helmuualdum,Letter to Helmwald,
+35,EpP,Epist.Pleg.,Epistula ad Pleguinam,Letter to Plegwin,CPL 2319
+36,EpW,Epist.Wicth.,Epistula ad Uuicthedum,Letter to Wicthed,CPL 2321
+
+43,P,Poem.,Poemata,Poems,
+
+26,DLS,Loc.Sanct.,De locis sanctis,On the Holy Places,CPL 2333
+25,DAM,Art.metr.,De arte metrica,The Art of Poetry,CPL 1565 sqq.
+29,DST,Sch.trop.,De schematibus et tropis,The Figures of Rhetoric,CPL 1565 sqq.
+28,DO,Orthogr.,De orthographia,On Orthography,CPL 1565 sqq.
+27,DNR,Nat.rer.,De natura rerum,On the Nature of Things,CPL 1343
+30,DT,Temp.,De temporibus,On Times,see CPL 2273 and 2318 sqq.
+39,ChMi,Chron.min.,Chronica minora,The Lesser Chronicle (chs. 17-22 of DT),see CPL 2273
+31,DTR,Temp.rat.,De temporum ratione,The Reckoning of Time,see CPL 2273 and 2318 sqq.
+38,ChMa,Chron.mai.,Chronica maiora,The Greater Chronicle (ch. 66 of DTR),see CPL 2273

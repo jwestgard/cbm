@@ -1,0 +1,21 @@
+{% extends "bootstrap/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+{% endblock %}
+
+{% block title %}
+    Census of Bede MSS
+{% endblock %}
+
+{% block content %}
+  <h1>Census of Bede Manuscripts</h1>
+        <ul>
+        {% for country in countries %}
+            <li>
+            <a href="countries/{{country.id}}">{{country.id}}</a>:
+                 {{country.name}} / {{country.native}}
+            </li>
+        {% endfor %}
+        </ul>
+{% endblock %}
