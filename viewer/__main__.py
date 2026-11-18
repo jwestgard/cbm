@@ -63,7 +63,7 @@ def single_work(abbreviation):
 def country_list():
     with engine.connect() as conn:
         results = conn.execute(
-            select(text('* from countries'))
+            select(countries)
             ).fetchall()
     return render_template("countries.html", countries=results)
 

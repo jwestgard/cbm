@@ -10,11 +10,17 @@
 
 {% block content %}
   <h1>Census of Bede Manuscripts</h1>
-  <h2>{{work.title_lat}}</i> / <i>{{work.title_eng}} ({{work.abbreviation}})</h2>
-        <ul>
+  <h2>{{work.title_lat}} / <i>{{work.title_eng}}</i> ({{work.abbreviation}})</h2>
+        <ol>
         {% for ms in mss %}
-            <li>{{ms.settlement}}, {{ms.repository}}, {{ms.shelfmark}}
+            <li>
+            {{ms.settlement ~ ', ' if ms.settlement else ''}}
+            {{ms.repository ~ ', ' if ms.repository else ''}}
+            {{ms.shelfmark}}
+            {% if ms.refs %}
+                <br><i>{{ ms.refs }}</i>
+            {% endif %}
             </li>
         {% endfor %}
-        </ul>
+        </ol>
 {% endblock %}
