@@ -35,6 +35,34 @@ if __name__ == "__main__":
         Column('country_id', ForeignKey('countries.id'), nullable=False)
     )
 
+    repositories_table = Table(
+        "repositories",
+        metadata,
+        Column('id', Integer, primary_key=True),
+        Column('old_id', Integer),
+        Column('city_id', ForeignKey('cities.id'), nullable=False),
+        Column('name', String(50)),
+        Column('address', String),
+        Column('website', String(50)),
+        Column('other_name', String(50)),
+        Column('abbreviation', String(50)),
+    )
+    manuscripts_table = Table(
+        "manuscripts",
+        metadata,
+        Column('id', Integer, primary_key=True),
+        Column('excluded', String(50)),
+        Column('repo_id', ForeignKey('repositories.id'), nullable=False),
+        Column('notes', String),
+        Column('support', String(50)),
+        Column('extent', String(50)),
+        Column('length', String(50)),
+        Column('numbered_by', String(50)),
+        Column('sm_alpha_part', String(50)),
+        Column('sm_num_part', Integer),
+        Column('sm_suffix', String(50))
+    )
+
     works_table = Table(
         "works",
         metadata,
@@ -77,6 +105,16 @@ if __name__ == "__main__":
     with engine.connect() as conn:
         cities_data = [row for row in csv.DictReader(open('csv/cities.csv'))]
         conn.execute(insert(cities_table), cities_data)
+        conn.commit()
+
+    with engine.connect() as conn:
+        repositories_data = [row for row in csv.DictReader(open('csv/repositories.csv'))]
+        conn.execute(insert(repositories_table), repositories_data)
+        conn.commit()
+
+    with engine.connect() as conn:
+        mss_data = [row for row in csv.DictReader(open('csv/mss.csv'))]
+        conn.execute(insert(manuscripts_table), mss_data)
         conn.commit()
 
     with engine.connect() as conn:

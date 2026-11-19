@@ -1,0 +1,20 @@
+{% extends "bootstrap/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+{% endblock %}
+
+{% block title %}
+    Census of Bede MSS
+{% endblock %}
+
+{% block content %}
+  <h1>Census of Bede Manuscripts</h1>
+        <ol>
+        {% for ms in manuscripts %}
+            <li>
+            {{ms.repo_id ~ ', ' if ms.repo_id else ''}}
+            </li>
+        {% endfor %}
+        </ol>
+{% endblock %}

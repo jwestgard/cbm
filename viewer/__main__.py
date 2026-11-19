@@ -19,6 +19,8 @@ engine = create_engine(f"sqlite+pysqlite:///{DBFILE}", echo=True, future=True)
 metadata = MetaData()
 
 works = Table('works', metadata, autoload_with=engine)
+manuscripts = Table('manuscripts', metadata, autoload_with=engine)
+repositories = Table('repositories', metadata, autoload_with=engine)
 countries = Table('countries', metadata, autoload_with=engine)
 cities = Table('cities', metadata, autoload_with=engine)
 entries = Table('entries', metadata, autoload_with=engine)
@@ -57,6 +59,15 @@ def single_work(abbreviation):
             select(entries).where(entries.c.work_id == work.id)
             ).fetchall()
     return render_template("work.html", work=work, mss=mss)
+
+
+@app.route("/manuscripts")
+def mss_list():
+    with engine.connect() as conn:
+        results = conn.execute(
+            select(manuscripts)
+            ).fetchall()
+    return render_template("manuscripts.html", manuscripts=results)
 
 
 @app.route("/countries")
