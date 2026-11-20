@@ -9,6 +9,7 @@ from sqlalchemy import create_engine
 from sqlalchemy import MetaData
 from sqlalchemy import select
 from sqlalchemy import Table
+from sqlalchemy.orm import DeclarativeBase
 
 
 DBFILE = sys.argv[1]
@@ -16,7 +17,12 @@ DBFILE = sys.argv[1]
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
 engine = create_engine(f"sqlite+pysqlite:///{DBFILE}", echo=True, future=True)
-metadata = MetaData()
+
+class Base(DeclarativeBase):
+    pass
+
+metadata = Base.metadata
+registry = Base.registry
 
 works = Table('works', metadata, autoload_with=engine)
 manuscripts = Table('manuscripts', metadata, autoload_with=engine)
@@ -25,21 +31,21 @@ countries = Table('countries', metadata, autoload_with=engine)
 cities = Table('cities', metadata, autoload_with=engine)
 entries = Table('entries', metadata, autoload_with=engine)
 
+'''
+registry.map_imperatively(
+    Repository,
+    repositories,
+    properties={"city": relationship("City", back_populates="repositories")},
+)
 
-class Work():
-    def __init__(self, **kwargs):
-        super().__init__()
-        for k, v in kwargs.items():
-            setattr(self, k, v)
-
+registry.map_imperatively(
+    City,
+    cities,
+    properties={"country": relationship("Country", back_populates="cities")},
+)
+'''
 
 @app.route("/")
-def index():
-    with open("csv/opera.csv") as handle:
-        works = [Work(**row) for row in csv.DictReader(handle)]
-    return render_template("home.html", works=works)
-
-
 @app.route("/works")
 def works_list():
     with engine.connect() as conn:

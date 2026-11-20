@@ -17,8 +17,7 @@ if __name__ == "__main__":
     metadata = MetaData()
 
     countries_table = Table(
-        "countries",
-        metadata,
+        "countries", metadata,
         Column('id', Integer, primary_key=True),
         Column('old_id', Integer),
         Column('name', String(30)),
@@ -26,8 +25,7 @@ if __name__ == "__main__":
     )
 
     cities_table = Table(
-        "cities",
-        metadata,
+        "cities", metadata,
         Column('id', Integer, primary_key=True),
         Column('old_id', Integer),
         Column('name', String(50)),
@@ -36,8 +34,7 @@ if __name__ == "__main__":
     )
 
     repositories_table = Table(
-        "repositories",
-        metadata,
+        "repositories", metadata,
         Column('id', Integer, primary_key=True),
         Column('old_id', Integer),
         Column('city_id', ForeignKey('cities.id'), nullable=False),
@@ -47,9 +44,9 @@ if __name__ == "__main__":
         Column('other_name', String(50)),
         Column('abbreviation', String(50)),
     )
+
     manuscripts_table = Table(
-        "manuscripts",
-        metadata,
+        "manuscripts", metadata,
         Column('id', Integer, primary_key=True),
         Column('excluded', String(50)),
         Column('repo_id', ForeignKey('repositories.id'), nullable=False),
@@ -64,8 +61,7 @@ if __name__ == "__main__":
     )
 
     works_table = Table(
-        "works",
-        metadata,
+        "works", metadata,
         Column('id', Integer, primary_key=True),
         Column('abbreviation', String(10)),
         Column('abbreviation_long', String(30)),
@@ -75,8 +71,7 @@ if __name__ == "__main__":
     )
 
     entries_table = Table(
-        "entries",
-        metadata,
+        "entries", metadata,
         Column('id', Integer, primary_key=True),
         Column('manuscript_id', Integer),
         Column('work_id', ForeignKey('works.id'), nullable=False),
